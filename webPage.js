@@ -8,4 +8,4 @@ let currentUTCTime = document.getElementById("currentUTCTime");
 
         currentUTCTime.innerHTML = (currentTime.valueOf())
         currentDayOfTheWeek.innerHTML = daysOfTheWeek[(currentTime.getDay())]
-    }, 1)
+    }, 1000)
